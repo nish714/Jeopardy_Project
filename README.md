@@ -9,9 +9,13 @@ You can also install and setup Babel if you would like
 # Env Variables
 Create a .env file in the parent folder and add the following
 
+
 NODE_ENV = development
+
 PORT = 5000
+
 MONGO_URI = your mongodb uri
+
 JWT_SECRET = 'abc123'
 
 # Install Dependencies (frontend & backend)
@@ -38,9 +42,9 @@ npm run data:destroy
 # Sample User Logins
 
 mohit@gmail.com 
-123456
+password: 123456
 
 manish@gmail.com (Admin)
-123456
+password: 123456
 
 
