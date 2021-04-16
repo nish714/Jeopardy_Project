@@ -20,9 +20,11 @@ JWT_SECRET = 'abc123'
 
 # Install Dependencies (frontend & backend)
 npm install
+
 cd frontend
+
 npm install
-Run
+
 # Run both frontend (:3000) & backend (:5000)
 npm run dev
 
